@@ -1,0 +1,116 @@
+// =============================================================================
+// Metrix SaaS Dashboard — Design Tokens
+// 來源：Figma「Metrix SaaS Dashboard UI Kit (Community)」/ node 2:380
+// 所有數值皆取自設計稿的 GLOBAL_VARS，未自行新增。
+// =============================================================================
+
+// ── Primary ──────────────────────────────────────────────────────────────────
+$primary-100: #5570f1;
+$primary-50: #97a5eb;
+$primary-30: #b6bfe8;
+$primary-10: #dbdeee;
+
+// ── Secondary ────────────────────────────────────────────────────────────────
+$secondary-100: #ffcc91;
+$secondary-50: #ffead1;
+$secondary-30: #fff2e2;
+$secondary-20: #fef5ea;
+
+// ── Neutral（Black scale）────────────────────────────────────────────────────
+$black-100: #1c1d22;
+$black-90: #2c2d33;
+$black-80: #33343a;
+$black-70: #37393f;
+$black-60: #45464e;
+$black-50: #53545c;
+$black-40: #6e7079;
+$black-30: #8b8d97;
+$black-20: #a6a8b1;
+$black-10: #bec0ca;
+$black-4: #5e6366;
+$black-3: #83898c;
+$black-2: #abafb1;
+$black-1: #cfd3d4;
+
+// ── Surface / Border ─────────────────────────────────────────────────────────
+$white: #ffffff;
+$main-background: #f4f5fa;
+$stroke: #f1f3f9;
+$grey: #e1e2e9;
+$container-stroke-grey: #f0f1f5;
+
+// ── Action ───────────────────────────────────────────────────────────────────
+$action-red: #cc5f5f;
+$action-green: #519c66;
+
+// ── 元件填色（取自設計稿的 fill 變數）────────────────────────────────────────
+$input-default-background: rgba(239, 241, 249, 0.6);
+$sidebar-banner-background: rgba(255, 204, 145, 0.2);
+$sidebar-support-background: rgba(94, 99, 102, 0.1);
+$sidebar-logout-hover: rgba(204, 95, 95, 0.08);
+
+// Iconly 原始圖示線色（來自匯出的 SVG，設計稿未提供對應 token）
+$icon-default: #130f26;
+
+// ── 字型 ─────────────────────────────────────────────────────────────────────
+$font-heading: 'Poppins', 'Noto Sans TC', sans-serif;
+$font-body: 'Inter', 'Noto Sans TC', sans-serif;
+$font-legacy: 'Roboto', sans-serif;
+
+$font-size-label-2: 11px;
+$font-size-label-1: 12px;
+$font-size-body-2: 14px;
+$font-size-body-1: 16px;
+$font-size-heading-3: 20px;
+
+// ── 圓角 ─────────────────────────────────────────────────────────────────────
+$radius-sm: 6px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 16px;
+$radius-pill: 500px;
+
+// ── 陰影（設計稿僅此一組）────────────────────────────────────────────────────
+$shadow-card: 0 4px 32px 0 rgba(61, 70, 112, 0.08);
+
+// ── 間距 ─────────────────────────────────────────────────────────────────────
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 10px;
+$space-4: 12px;
+$space-5: 16px;
+$space-6: 20px;
+$space-7: 24px;
+$space-8: 40px;
+
+// ── Dashboard 元件填色（取自設計稿節點的 fill 變數）──────────────────────────
+$primary-12: rgba(85, 112, 241, 0.12);
+$primary-8: rgba(85, 112, 241, 0.08);
+$secondary-16: rgba(255, 204, 145, 0.16);
+$white-16: rgba(255, 255, 255, 0.16);
+$status-pending-background: rgba(245, 126, 119, 0.12);
+$status-completed-background: rgba(50, 147, 111, 0.12);
+$overlay-background: rgba(163, 163, 163, 0.2);
+
+// ── 版型 ─────────────────────────────────────────────────────────────────────
+$sidebar-width: 296px;
+$sidebar-width-collapsed: 88px;
+$header-bar-padding: 14px 21px;
+$header-bar-gap: 10px;
+$breadcrumbs-padding: 4px 20px;
+$content-padding: 28px 19px;
+
+// ── 響應式斷點（數值需與 stores/ui.ts 保持一致）──────────────────────────────
+$breakpoint-mobile: 768px;
+$breakpoint-desktop: 1280px;
+/// 手機版抽屜左側保留的可見寬度（讓使用者看得出是可關閉的抽屜）
+$drawer-gap: 48px;
+
+// ── 圖層 ─────────────────────────────────────────────────────────────────────
+$z-header: 9;
+$z-sidebar: 10;
+$z-dropdown: 20;
+$z-overlay: 30;
+$z-sidebar-drawer: 40;
+
+$transition-base: 0.2s ease;
